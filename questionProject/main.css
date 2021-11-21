@@ -260,7 +260,6 @@ Questions
 ===============
 */
 /* gold color in css vars */
-
 .questions {
   margin-top: 10rem;
 }
@@ -270,11 +269,10 @@ Questions
 }
 .section-center {
   width: 90vw;
-  margin: 0 auto;
   max-width: var(--fixed-width);
+  margin: 0 auto;
   margin-top: 3rem;
 }
-
 .question {
   background: var(--white);
   border-radius: var(--borderRadius);
@@ -282,6 +280,7 @@ Questions
   padding: 1.5rem 1rem;
   margin-bottom: 2rem;
 }
+
 .question-title {
   display: flex;
   justify-content: space-between;
@@ -290,44 +289,39 @@ Questions
 .question-title p {
   margin: 0;
   letter-spacing: var(--letterSpacing);
-  color: var(--grey-700);
+  color: var(--grey-800);
 }
-
 .question-btn {
   font-size: 1.5rem;
   background: transparent;
-  border-color: transparent;
-  cursor: pointer;
+  border: transparent;
   color: var(--gold);
+  cursor: pointer;
   transition: var(--transition);
 }
 .question-btn:hover {
   transform: rotate(90deg);
 }
-
 .question-text {
   padding-top: 1rem;
   margin-top: 1rem;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
-
 .question-text p {
   margin: 0;
   color: var(--grey-500);
 }
 
-/* hide text */
+/* hide the text */
 .question-text {
   display: none;
 }
 .minus-icon {
   display: none;
 }
-
 .show-text .question-text {
   display: block;
 }
-
 .show-text .minus-icon {
   display: inline;
 }
